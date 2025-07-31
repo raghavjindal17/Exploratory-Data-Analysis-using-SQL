@@ -127,3 +127,7 @@ WITH dates_cte AS(
 SELECT dates, SUM(total) OVER(ORDER BY dates ASC) rolling_total
 FROM dates_cte
 ORDER BY dates ASC;
+
+--------------------------------------------------------------------------------------------------
+--The End
+--Raghav Jindal
